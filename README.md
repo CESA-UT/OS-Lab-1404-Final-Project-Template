@@ -29,6 +29,7 @@ Each topic has specific requirements and suggested commands. Make sure to coordi
 4. **Update `debian/changelog`** (package name)
 5. **Update `debian/install`** (all file paths)
 6. **Update `debian/manpages`** (man page path)
+7. **Update `debian/links`** (all file paths)
 
 **Examples of good names:** `diskmonitor`, `loganalyzer`, `fileorganizer`, `sysbackup`, `netcheck`
 
@@ -92,8 +93,9 @@ sudo apt remove mytool
 **STEP 1: Rename everything from `mytool` to your project name!**
 
 - Rename all source files, man pages, and config files
-- Update `debian/control`, `debian/changelog`, `debian/install`, and `debian/manpages`
+- Update `debian/control`, `debian/changelog`, `debian/install`, `debian/links`, and `debian/manpages`
 - Change file paths in `debian/install` to match your renamed files
+- Change file paths in `debian/links` to match your renamed files
 - Update metadata in `debian/control` with your team information
 - Update version info in `debian/changelog` when your team submits new versions
 - Coordinate with team members to avoid merge conflicts!
@@ -132,6 +134,7 @@ my-bash-tool/
 │   ├── changelog              # Version history (update me!)
 │   ├── control                # Package metadata (update me!)
 │   ├── install                # File installation mappings (update me!)
+│   ├── links                  # File link mappings (update me!)
 │   ├── manpages               # Man page registration (update me!)
 │   └── rules                  # Build rules (usually no changes needed)
 ├── .gitignore                 # Excludes build artifacts
