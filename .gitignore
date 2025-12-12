@@ -35,3 +35,4 @@ Desktop.ini
 # Temporary files
 *.tmp
 .*.tmp
+debian/debhelper-build-stamp
