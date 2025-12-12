@@ -2,7 +2,19 @@
 
 **[نسخه فارسی](README.fa.md) | English Version**
 
+**Operating System Lab - Final Project**  
+**First Semester 1404-1405 (2025-2026)**  
+**Due Date: January 9, 2026 (19 Dey 1404) - 23:59**
+
 This repository is a template for your team to create a Bash command-line tool and package it into a `.deb` package.
+
+## 📋 Project Topics
+
+Before you start, **choose one topic** from the list of 21 available projects:
+
+**[View All Project Topics](PROJECT_TOPICS.md)** | **[مشاهده موضوعات پروژه](PROJECT_TOPICS.fa.md)**
+
+Each topic has specific requirements and suggested commands. Make sure to coordinate with other teams to avoid duplicates.
 
 ## ⚠️ FIRST STEP: Rename Your Project!
 
@@ -139,12 +151,30 @@ my-bash-tool/
 2. **Test thoroughly** - Install and test your package before publishing
 3. **Coordinate with your team** - Use git branches to avoid conflicts
 4. **Update all debian files** - Make sure all metadata reflects your actual project
+5. **Follow naming rules** - Only lowercase letters (a-z), numbers (0-9), and hyphens (-)
+
+---
+
+## 📊 Grading Information
+
+**Base Score:** 4 points  
+**Maximum Score:** 6 points (with bonus features)
+
+**Required Deliverables:**
+1. Complete source code in `src/`
+2. Man page in `man/`
+3. Debian packaging files in `debian/`
+4. Built `.deb` package
+5. Comprehensive README with team member names
+6. Project report explaining implementation and showing screenshots
 
 ---
 
 ## 🆘 Getting Help
 
 - Check [PUBLISHING_GUIDE.md](PUBLISHING_GUIDE.md) for detailed build and release instructions
+- Read [DEBIAN_PACKAGING.md](DEBIAN_PACKAGING.md) for packaging guidance
+- Review [PROJECT_TOPICS.md](PROJECT_TOPICS.md) for topic-specific requirements
 - Review the Troubleshooting section in the Publishing Guide
 - Ask your instructor or teaching assistants for help
 
